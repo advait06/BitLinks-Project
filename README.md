@@ -1,22 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📌 Overview
 
-## Getting Started
+BitLinks is a full-stack URL shortening application built using Next.js. It allows users to generate short URLs and redirect to original links efficiently. The project demonstrates modern web development concepts including API routes, dynamic routing, and deployment.
 
-First, run the development server:
+🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* URL shortening with unique identifiers
+* Redirection using dynamic routes
+* Input validation
+* Responsive modern UI
+* (Optional) User authentication and analytics
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Tech Stack
+
+* Next.js – Full-stack framework with API routes
+* React.js – Component-based UI
+* Tailwind CSS – Responsive styling
+* Database – MongoDB / PostgreSQL / Firebase
+* Deployment – Vercel
+
+📂 Project Structure
+bitlinks/
+│── app / pages
+│── components/
+│── api/
+│── lib/
+│── styles/
+
+* Server-side rendering (SSR) and routing
+* API route handling in Next.js
+* Database integration
+* Full-stack application workflow
+* Production deployment
 
 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
